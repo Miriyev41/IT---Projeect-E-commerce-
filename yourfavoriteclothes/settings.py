@@ -70,6 +70,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'yourfavoriteclothes.wsgi.application'
+AUTH_USER_MODEL = 'accounts.Account'
 
 
 # Database
