@@ -4,7 +4,7 @@
 {%load static%}
 {%block content%}
 
-<!-- ========================= SECTION MAIN ========================= -->
+
 <section class="section-intro padding-y-sm">
 <div class="container">
 
@@ -12,11 +12,9 @@
 	<img src="{%static 'images/banners/cover_with_border.png' %}" class="img-fluid rounded">
 </div>
 
-</div> <!-- container //  -->
+</div> 
 </section>
-<!-- ========================= SECTION MAIN END// ========================= -->
 
-<!-- ========================= SECTION  ========================= -->
 <section class="section-name padding-y-sm">
 <div class="container">
 
@@ -33,23 +31,15 @@
 			<a href="{{product.get_url}}" class="img-wrap"> <img src="{{product.images.url}}"> </a>
 			<figcaption class="info-wrap">
 				<a href="{{product.get_url}}" class="title">{{product.product_name}}</a>
-				<div class="price mt-1">{{product.price}} PLN</div> <!-- price-wrap.// -->
+				<div class="price mt-1">{{product.price}} PLN</div> 
 			</figcaption>
 		</div>
-	</div> <!-- col.// -->
+	</div> 
 	{% endfor %}
-</div> <!-- row.// -->
+</div> 
 
-</div><!-- container // -->
+</div>
 </section>
-<!-- ========================= SECTION  END// ========================= -->
-
-
-
-
-<!-- ========================= FOOTER ========================= -->
-
-<!-- ========================= FOOTER END // ========================= -->
 
 </body>
 </html>

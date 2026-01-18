@@ -6,8 +6,8 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarTop4">   
-  </div> <!-- navbar-collapse .// -->
-</div> <!-- container //  -->
+  </div> 
+</div> 
 </nav>
 
 <section class="header-main border-bottom">
@@ -33,9 +33,9 @@
 	</div> <!-- col.// -->
 	<a href="{%url 'store'%}" class="btn btn-outline-primary">Store</a>
 	<div class="col-lg  col-md-6 col-sm-12 col">
-		<form action="#" class="search">
+		<form action="{% url 'search' %}" class="search" method ='GET'>
 			<div class="input-group w-100">
-			    <input type="text" class="form-control" style="width:60%;" placeholder="Search">
+			    <input type="text" class="form-control" style="width:60%;" placeholder="Search" name="keyword">
 			    
 			    <div class="input-group-append">
 			      <button class="btn btn-primary" type="submit">
@@ -43,8 +43,8 @@
 			      </button>
 			    </div>
 		    </div>
-		</form> <!-- search-wrap .end// -->
-	</div> <!-- col.// -->
+		</form> 
+	</div> 
 	<div class="col-lg-3 col-sm-6 col-8 order-2 order-lg-3">
 				<div class="d-flex justify-content-end mb-3 mb-lg-0">
 					<div class="widget-header">
@@ -58,13 +58,13 @@
 						<div class="icon icon-sm rounded-circle border"><i class="fa fa-shopping-cart"></i></div>
 						<span class="badge badge-pill badge-danger notify">{{cart_count}}</span>
 					</a>
-				</div> <!-- widgets-wrap.// -->
-			</div> <!-- col.// -->
-</div> <!-- row.// -->
-	</div> <!-- container.// -->
-</section> <!-- header-main .// -->
+				</div> 
+			</div> 
+</div> 
+	</div> 
+</section> 
 
 
 
 
-</header> <!-- section-header.// -->
+</header> 

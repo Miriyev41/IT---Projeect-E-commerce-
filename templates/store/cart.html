@@ -8,7 +8,6 @@
 <section class="section-content padding-y bg">
 <div class="container">
 
-<!-- ============================ COMPONENT 1 ================================= -->
 
 {%if not cart_items%}
 	<h3> Your shopping cart is empty</h3>
@@ -40,7 +39,6 @@
 		</figure>
 	</td>
 	<td> 
-		<!-- col.// -->
 					<div class="col"> 
 						<div class="input-group input-spinner">
 							<div class="input-group-prepend">
@@ -50,8 +48,8 @@
 							<div class="input-group-append">
 							<a href="{%url 'add_cart' cart_item.product.id%}" class="btn btn-light" type="button" id="button-minus"> <i class="fa fa-plus"></i> </a>
 							</div>
-						</div> <!-- input-group.// -->
-					</div> <!-- col.// -->
+						</div> 
+					</div> 
 	</td>
 	<td> 
 		<div class="price-wrap"> 
@@ -66,9 +64,9 @@
 {%endfor%}
 </tbody>
 </table>
-</div> <!-- card.// -->
+</div> 
 
-	</aside> <!-- col.// -->
+	</aside> 
 	<aside class="col-lg-3">
 
 		<div class="card">
@@ -83,17 +81,17 @@
 			</p>
 			<a href="./place-order.html" class="btn btn-primary btn-block"> Checkout </a>
 			<a href="./store.html" class="btn btn-light btn-block">Continue Shopping</a>
-		</div> <!-- card-body.// -->
-		</div> <!-- card.// -->
+		</div>
+		</div>
 
-</aside> <!-- col.// -->
+</aside> 
 
 
-</div> <!-- row.// -->
+</div> 
 {%endif%}
-<!-- ============================ COMPONENT 1 END .// ================================= -->
 
-</div> <!-- container .//  -->
+
+</div> 
 </section>
 
 {%endblock%}

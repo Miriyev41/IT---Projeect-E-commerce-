@@ -6,9 +6,12 @@
 {%block content%}
 <section class="section-pagetop bg">
 <div class="container">
+	{% if 'search' in request.path %}
+	<h2 class="title-page">Searc Result</h2>
+	{% else %}
 	<h2 class="title-page">Our Store</h2>
-	
-</div> <!-- container //  -->
+	{%endif%}
+</div> 
 </section>
 <section class="section-content padding-y">
 <div class="container">
@@ -34,9 +37,9 @@
 					{%endfor%}
 				</ul>
 
-			</div> <!-- card-body.// -->
+			</div> 
 		</div>
-	</article> <!-- filter-group  .// -->
+	</article> 
 	
 	<article class="filter-group">
 		<header class="card-header">
@@ -51,7 +54,6 @@
 				<div class="form-row">
 				<div class="form-group col-md-6">
 				  <label>Min</label>
-				  <!-- <input class="form-control" placeholder="$0" type="number"> -->
 				  	<select class="mr-2 form-control">
 						<option value="0">0</option>
 						<option value="50">50</option>
@@ -74,15 +76,15 @@
 						<option value="2000">2000+</option>
 					</select>
 				</div>
-				</div> <!-- form-row.// -->
+				</div> 
 				<button class="btn btn-block btn-primary">Apply</button>
-			</div><!-- card-body.// -->
+			</div>
 		</div>
-	</article> <!-- filter-group .// -->
+	</article> 
 	
-</div> <!-- card.// -->
+</div> 
 
-	</aside> <!-- col.// -->
+	</aside> 
 	<main class="col-md-9">
 
 <header class="border-bottom mb-4 pb-3">
@@ -90,7 +92,7 @@
 			<span class="mr-md-auto">{{product_count}} Items found </span>
 			
 		</div>
-</header><!-- sect-heading -->
+</header>
 
 <div class="row">
     {% for product in products %}
@@ -100,27 +102,27 @@
 				
 				<a href="{{product.get_url}}"><img src="{{product.images.url}}"></a>
 				
-			</div> <!-- img-wrap.// -->
+			</div> 
 			<figcaption class="info-wrap">
 				<div class="fix-height">
 					<a href="{{product.get_url}}" class="title">{{product.product_name}}</a>
 					<div class="price-wrap mt-2">
 						<span class="price">{{product.price}} PLN</span>
-					</div> <!-- price-wrap.// -->
+					</div> 
 				</div>
 				<a href="{{product.get_url}}" class="btn btn-block btn-success">View details </a>
 			</figcaption>
 		</figure>
-	</div> <!-- col.// -->
+	</div> 
     {%endfor%}
-</div> <!-- row end.// -->
+</div> 
 
 
 <nav class="mt-4" aria-label="Page navigation sample">
   {% if products.has_other_pages%}
 	<ul class="pagination">
 		{%if products.has_previous%}
-		<li class="page-item"><a class="page-link" href="{{products.prevous_page_number}}">Previous</a></li>
+		<li class="page-item"><a class="page-link" href="?page={{products.prevous_page_number}}">Previous</a></li>
 		{%else%}
 		<li class="page-item disabled"><a class="page-link" href="#"">Previous</a></li>
 		{%endif%}
@@ -132,7 +134,7 @@
 			{%endif%}
 		{%endfor%}
 		{%if products.has_next%}
-		<li class="page-item"><a class="page-link" href="{{products.next_page_number}}">Next</a></li>
+		<li class="page-item"><a class="page-link" href="?page={{products.next_page_number}}">Next</a></li>
 		{%else%}
 		<li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
 		{%endif%}
@@ -140,11 +142,11 @@
   {%endif%}
 </nav>
 
-	</main> <!-- col.// -->
+	</main> 
 
 </div>
 
-</div> <!-- container .//  -->
+</div> 
 </section>
 
 
