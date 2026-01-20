@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container" style="margin-top: 50px; margin-bottom: 50px;">
+    <div class="row">
+        <aside class="col-md-3">
+            <ul class="list-group">
+                <a class="list-group-item" href="{% url 'dashboard' %}"> My Account </a>
+                <a class="list-group-item active" href="{% url 'dashboard' %}"> My Orders </a>
+                <a class="list-group-item" href="{% url 'edit_profile' %}"> Edit Profile </a>
+            </ul>
+            <br>
+            <a class="btn btn-light btn-block" href="{% url 'logout' %}"> <i class="fa fa-power-off"></i> <span class="text">Log out</span> </a> 
+        </aside>
+
+        <main class="col-md-9">
+            <article class="card">
+                <header class="card-header">
+                    <strong class="d-inline-block mr-3">Order ID: {{order.order_number}}</strong>
+                    <span>Date: {{order.created_at}}</span>
+                </header>
+                <div class="card-body">
+                    <div class="row"> 
+                        <div class="col-md-4">
+                            <h6 class="text-muted">Payment</h6>
+                            <span class="text-success">
+                                <i class="fab fa-lg fa-cc-paypal"></i> PayPal
+                            </span>
+                            <p>Total: PLN {{ order.order_total }} <br>
+                               Status: {{ order.status }}
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="text-muted">Ship to</h6>
+                            <p>{{ order.full_name }} <br>
+                               {{ order.phone }} <br>
+                               {{ order.email }} <br>
+                               {{ order.city }}, {{ order.country }}
+                            </p>
+                        </div>
+                    </div> <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Quantity</th>
+                                <th>Unit Price</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for item in order_detail %}
+                            <tr>
+                                <td>
+                                    <img src="{{ item.product.images.url }}" width="40" class="img-xs border">
+                                    {{ item.product.product_name }}
+                                </td>
+                                <td>{{ item.quantity }}</td>
+                                <td>PLN {{ item.product_price }}</td>
+                                <td>PLN {{ item.sub_total }}</td> </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div> </article> </main>
+    </div>
+</div>
+{% endblock %}

@@ -1,4 +1,3 @@
-
 """
 Django settings for yourfavoriteclothes project.
 
@@ -42,6 +41,7 @@ INSTALLED_APPS = [
     'accounts',
     'store',
     'carts',
+    'orders', 
 ]
 
 MIDDLEWARE = [
@@ -64,7 +64,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
+                'django.contrib.auth.context_processors.auth', # Correct path
                 'django.contrib.messages.context_processors.messages',
                 'category.context_processors.menu_links',
                 'carts.context_processors.counter',
@@ -131,3 +131,12 @@ STATICFILES_DIRS = [
 #media
 MEDIA_URL ='/media/'
 MEDIA_ROOT = BASE_DIR /'media'
+
+# Message tags for Bootstrap alert colors
+from django.contrib.messages import constants as messages
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger',
+}
+
+# Email settings for local testing (Output to Terminal)
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
