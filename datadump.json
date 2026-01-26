@@ -1,0 +1,2876 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-12-19T12:51:15.311Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "Accessories",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-12-19T12:51:46.052Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "Pants",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-12-19T12:52:18.990Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "Shirts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-12-19T12:52:51.450Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "4",
+    "object_repr": "Shoes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-12-19T12:53:22.366Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "5",
+    "object_repr": "T-shirts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-01-07T19:13:27.621Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Blue t-shirt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-01-07T19:14:57.109Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Black t-shirt",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-01-07T19:16:06.638Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Gray pants",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-01-07T19:16:42.039Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "jeans",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-01-07T19:18:05.245Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "long sleeve shirts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-01-07T19:19:03.910Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Cool shirts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-01-07T19:20:01.075Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "White shoes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-01-07T19:20:38.934Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "shoes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-01-07T19:20:53.690Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Shoes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Product name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-01-07T19:21:01.706Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Long sleeve shirts",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Product name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-01-07T19:21:09.514Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Jeans",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Product name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-01-13T13:28:28.813Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Classic watch",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-01-13T13:29:06.758Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Sport watch",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-01-13T16:48:27.565Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "pants",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category name\", \"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-01-13T16:48:34.398Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "shirts",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category name\", \"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-01-13T16:48:41.249Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "4",
+    "object_repr": "shoes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category name\", \"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-01-13T16:48:47.778Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "5",
+    "object_repr": "t-shirts",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category name\", \"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-01-13T16:48:53.562Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "accessories",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category name\", \"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-01-13T17:02:57.419Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "5",
+    "object_repr": "T-shirts",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-01-13T17:03:02.102Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "4",
+    "object_repr": "Shoes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-01-13T17:03:06.722Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "Shirts",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-01-13T17:03:12.696Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "Pants",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-01-13T17:03:16.518Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "Accessories",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-01-13T22:09:33.259Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Classic watch",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-01-13T22:09:41.637Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Sport watch",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-01-13T22:09:50.897Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Shoes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-01-13T22:09:58.669Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "White shoes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2026-01-13T22:10:08.835Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Cool shirts",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2026-01-13T22:10:17.593Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Long sleeve shirts",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2026-01-13T22:10:25.378Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Jeans",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2026-01-13T22:10:32.477Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Gray pants",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2026-01-13T22:10:42.258Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Black t-shirt",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2026-01-13T22:10:49.902Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Blue t-shirt",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2026-01-14T12:13:33.683Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Black t-shirt",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Stock\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2026-01-14T23:29:43.937Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "6",
+    "object_repr": "Graphics card",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2026-01-14T23:39:32.938Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "ASUS Dual GeForce RTX™ 5060 8GB GDDR7 OC Edition",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2026-01-15T09:26:04.348Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "7",
+    "object_repr": "RAM",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2026-01-15T09:26:45.329Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "8",
+    "object_repr": "Power Supply",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2026-01-15T09:27:03.514Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "6",
+    "object_repr": "Graphics Card",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2026-01-15T09:27:33.500Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "9",
+    "object_repr": "Motherboard",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2026-01-15T09:27:57.612Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "10",
+    "object_repr": "Processor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2026-01-15T09:29:29.911Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "11",
+    "object_repr": "Monitor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2026-01-15T09:30:29.658Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "12",
+    "object_repr": "Hard Disk",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2026-01-15T09:30:35.995Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "13",
+    "object_repr": "SSD",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2026-01-15T09:30:50.176Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "14",
+    "object_repr": "Cooling Fan",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2026-01-15T09:38:45.620Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Thermalright Peerless Assassin 120 SE CPU Cooler, 6 Heat Pipes AGHP Technology, Dual 120mm PWM Fans,",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2026-01-15T09:42:30.905Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Thermalright Peerless Assassin 120 SE",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Product name\", \"Slug\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2026-01-15T09:43:43.793Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "15",
+    "object_repr": "CPU Cooler",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2026-01-15T09:43:50.368Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Thermalright Peerless Assassin 120 SE",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2026-01-15T09:45:38.109Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "ID-COOLING SE-224-XTS",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2026-01-15T09:46:18.900Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "ID-COOLING SE-224-XTS Black CPU Cooler",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Product name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2026-01-15T09:47:56.722Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "be quiet! Pure Rock Pro 3 Black CPU Air Cooler",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2026-01-15T09:49:26.818Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "Cooler Master Hyper 212 Black CPU Cooler",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2026-01-15T09:52:23.284Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "WD_Black SN7100 2TB NVMe SSD - Gen4 PCIe, M.2 2280",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2026-01-15T09:53:13.385Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "WD_Black SN7100 2TB NVMe SSD - Gen4 PCIe, M.2 2280",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Images\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2026-01-15T09:53:42.778Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "WD_Black SN7100 2TB NVMe SSD - Gen4 PCIe, M.2 2280",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Images\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2026-01-15T10:25:41.933Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "SanDisk 2TB Extreme Portable SSD - Up to 1050MB/s",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2026-01-15T10:26:59.257Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "ASUS Dual GeForce RTX™ 5060 8GB GDDR7 OC Edition",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2026-01-15T10:28:52.791Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "ASUS Dual GeForce RTX™ 5060 8GB GDDR7 OC Edition",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2026-01-15T10:30:21.690Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "19",
+    "object_repr": "ASUS TUF Gaming GeForce RTX ™ 5070 12GB",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2026-01-15T10:31:36.672Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "20",
+    "object_repr": "ASUS TUF Gaming GeForce RTX™ 4060 Ti OC Edition Gaming",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2026-01-15T10:32:20.162Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "21",
+    "object_repr": "ASUS ROG Astral GeForce RTX™ 5080 OC Edition",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2026-01-15T10:33:25.814Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "22",
+    "object_repr": "XFX Radeon RX 7900XT Gaming Graphics Card",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2026-01-15T10:34:18.765Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Blue t-shirt",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2026-01-15T10:34:22.360Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Black t-shirt",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2026-01-15T10:34:25.815Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Gray pants",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2026-01-15T10:34:28.897Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Jeans",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2026-01-15T10:34:32.095Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Long sleeve shirts",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2026-01-15T10:34:35.395Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Cool shirts",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2026-01-15T10:34:38.283Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "White shoes",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2026-01-15T10:34:41.488Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Shoes",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2026-01-15T10:34:44.642Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Classic watch",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2026-01-15T10:34:59.985Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "Pants",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2026-01-15T10:35:03.004Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "Shirts",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2026-01-15T10:35:06.873Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "4",
+    "object_repr": "Shoes",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2026-01-15T10:35:09.655Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "5",
+    "object_repr": "T-shirts",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2026-01-15T10:37:09.999Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Mens Digital Watch Ultra-Thin Sports Waterproof Simple Watch",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Product name\", \"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2026-01-15T10:37:38.198Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Mens Digital Watch Ultra-Thin Simple Watch",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Product name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2026-01-15T10:39:26.168Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "23",
+    "object_repr": "Seagate IronWolf 4TB NAS Internal Hard Drive",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2026-01-15T10:40:19.386Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "24",
+    "object_repr": "Seagate BarraCuda 4TB Internal Hard Drive HDD",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2026-01-15T10:40:37.361Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "21",
+    "object_repr": "ASUS ROG Astral GeForce RTX™ 5080 OC Edition",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\", \"Stock\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2026-01-15T10:43:22.423Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "25",
+    "object_repr": "Philips 221V8LB 22 inch Class Thin Full HD (1920 x 1080)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2026-01-15T10:44:22.998Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "26",
+    "object_repr": "acer 27 Inch Monitor- KB272-27 Inch FHD IPS (1920 x 1080)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2026-01-15T10:45:31.278Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "27",
+    "object_repr": "LG 27U631A-B 27-inch QHD (2560 x 1440) IPS",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2026-01-15T10:47:03.329Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "28",
+    "object_repr": "ASUS TUF GAMING B850-E WIFI AMD AM5 B850",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2026-01-15T10:48:01.946Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "29",
+    "object_repr": "ASUS ROG Strix B850-A Gaming WiFi AMD AM5 B850",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2026-01-15T10:48:11.930Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "28",
+    "object_repr": "ASUS TUF GAMING B850-E WIFI AMD AM5 B850",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Images\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2026-01-15T10:50:18.305Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "30",
+    "object_repr": "MSI MAG A750GL PCIE5, Fully Modular",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2026-01-15T10:52:23.908Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "31",
+    "object_repr": "Intel Core i7-14700F Desktop Processor 20 cores",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2026-01-15T10:52:40.531Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "31",
+    "object_repr": "Intel Core i7-14700F Desktop Processor 20 cores",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Price\", \"Stock\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2026-01-15T10:55:02.924Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "32",
+    "object_repr": "AMD Ryzen 7 7700X 8-Core, 16-Thread Unlocked",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2026-01-15T10:55:57.818Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "33",
+    "object_repr": "AMD Ryzen 7 7800X3D 8-Core, 16-Thread",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2026-01-15T10:56:54.030Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "34",
+    "object_repr": "AMD Ryzen 5 5500 6-Core, 12-Thread Unlocked",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2026-01-15T10:58:16.724Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "35",
+    "object_repr": "G.SKILL Trident Z5 RGB Series DDR5 RAM",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2026-01-15T10:59:09.551Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "36",
+    "object_repr": "GIGASTONE Game PRO 64GB Kit (4x16GB) DDR4 3200MHz",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2026-01-15T12:06:12.315Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "14",
+    "object_repr": "Case Cooler",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Category name\", \"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2026-01-15T12:07:01.749Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "37",
+    "object_repr": "Thermalright TL-C12C-S X3 CPU Fan 120mm ARGB",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2026-01-20T20:53:40.671Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "15",
+    "object_repr": "2026012015",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2026-01-20T20:53:44.917Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "202601201",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2026-01-20T20:53:48.583Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "202601202",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2026-01-20T20:53:51.885Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "202601203",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2026-01-20T20:53:55.411Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "202601204",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2026-01-20T20:53:58.678Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "5",
+    "object_repr": "202601205",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2026-01-20T20:54:02.291Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "6",
+    "object_repr": "202601206",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2026-01-20T20:54:05.525Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "202601207",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2026-01-20T20:54:08.761Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "8",
+    "object_repr": "202601208",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2026-01-20T20:54:11.651Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "9",
+    "object_repr": "202601209",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2026-01-20T20:54:14.693Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "10",
+    "object_repr": "2026012010",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2026-01-20T20:54:17.834Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "11",
+    "object_repr": "2026012011",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2026-01-20T20:54:21.031Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "12",
+    "object_repr": "2026012012",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2026-01-20T20:54:26.185Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "13",
+    "object_repr": "2026012013",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2026-01-20T20:54:29.500Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "14",
+    "object_repr": "2026012014",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2026-01-20T20:54:32.950Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "16",
+    "object_repr": "2026012016",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2026-01-20T20:54:36.549Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "17",
+    "object_repr": "2026012017",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ocyyipyo8bw6vxc71wxv93aw0uil7mo2",
+  "fields": {
+    "session_data": ".eJxVjDEOwjAMAP_iGUWYxqTpyN43RI7jkAJKpaadEH9HlTrAene6NwTe1hK2pkuYEgxg4fTLIstT6y7Sg-t9NjLXdZmi2RNz2GbGOenrdrR_g8KtwABXLwk79BYVcy908YLWqetRicRm7qJkjUyUVMiq8_6srOQySk5Z4PMF7G05CA:1viyVN:SVbyJgIUxN1R5Dy22aVA0bmcu2Vw1r7IXHWiwPJfDlU",
+    "expire_date": "2026-02-05T17:30:01.329Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qigitdhdi9xaybwube9oxzkawbp44ki5",
+  "fields": {
+    "session_data": ".eJxVjDkKwzAQAP-ydRA6rJVwmT5vMNrDkZMgg48q5O_B4CJpZ4Z5w1D2rQ77qsswCfTg4PLLqPBT2yHkUdp9Njy3bZnIHIk57Wpus-jrerZ_g1rWCj1golGVuLPC1iXyEcUGDDaxzS76OIogIRUOwoghOu4wi3dZc9Ec4PMF7ic39Q:1vWJkh:WJEl88DHMJmL-byLywJ8P4IGGKGrapf-aljPd-pHAEo",
+    "expire_date": "2026-01-01T19:33:31.978Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vbmomoqw2uespaufk0fc6xndqiu7y6me",
+  "fields": {
+    "session_data": ".eJxVjDkKwzAQAP-ydRA6rJVwmT5vMNrDkZMgg48q5O_B4CJpZ4Z5w1D2rQ77qsswCfTg4PLLqPBT2yHkUdp9Njy3bZnIHIk57Wpus-jrerZ_g1rWCj1golGVuLPC1iXyEcUGDDaxzS76OIogIRUOwoghOu4wi3dZc9Ec4PMF7ic39Q:1vWYuh:rMLhiUFYA64Pu6kh3rHLszWsXTPAZJnOcOENeRjBvC0",
+    "expire_date": "2026-01-02T11:44:51.426Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yp7dfzarobqy4t6ibf7689ehu8vnfg89",
+  "fields": {
+    "session_data": "e30:1vhXj2:RlCvMlpImU19msCvnqY5ArfG3P3a9NmD7_TP2pqUd7Y",
+    "expire_date": "2026-02-01T18:42:12.802Z"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 1,
+  "fields": {
+    "category_name": "Accessories",
+    "slug": "accessories",
+    "description": "This category is for accessories",
+    "cat_image": "photos/categories/Accessories.jpg"
+  }
+},
+{
+  "model": "category.category",
+  "pk": 6,
+  "fields": {
+    "category_name": "Graphics Card",
+    "slug": "graphics-card",
+    "description": "",
+    "cat_image": ""
+  }
+},
+{
+  "model": "category.category",
+  "pk": 7,
+  "fields": {
+    "category_name": "RAM",
+    "slug": "ram",
+    "description": "",
+    "cat_image": ""
+  }
+},
+{
+  "model": "category.category",
+  "pk": 8,
+  "fields": {
+    "category_name": "Power Supply",
+    "slug": "power-supply",
+    "description": "",
+    "cat_image": ""
+  }
+},
+{
+  "model": "category.category",
+  "pk": 9,
+  "fields": {
+    "category_name": "Motherboard",
+    "slug": "motherboard",
+    "description": "",
+    "cat_image": ""
+  }
+},
+{
+  "model": "category.category",
+  "pk": 10,
+  "fields": {
+    "category_name": "Processor",
+    "slug": "processor",
+    "description": "",
+    "cat_image": ""
+  }
+},
+{
+  "model": "category.category",
+  "pk": 11,
+  "fields": {
+    "category_name": "Monitor",
+    "slug": "monitor",
+    "description": "",
+    "cat_image": ""
+  }
+},
+{
+  "model": "category.category",
+  "pk": 12,
+  "fields": {
+    "category_name": "Hard Disk",
+    "slug": "hard-disk",
+    "description": "",
+    "cat_image": ""
+  }
+},
+{
+  "model": "category.category",
+  "pk": 13,
+  "fields": {
+    "category_name": "SSD",
+    "slug": "ssd",
+    "description": "",
+    "cat_image": ""
+  }
+},
+{
+  "model": "category.category",
+  "pk": 14,
+  "fields": {
+    "category_name": "Case Cooler",
+    "slug": "case-cooler",
+    "description": "",
+    "cat_image": ""
+  }
+},
+{
+  "model": "category.category",
+  "pk": 15,
+  "fields": {
+    "category_name": "CPU Cooler",
+    "slug": "cpu-cooler",
+    "description": "",
+    "cat_image": ""
+  }
+},
+{
+  "model": "accounts.account",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$xQ1fZAVXipV7N6s19ZlHJT$3TVbqOjCKVQVnnZNyK/dSJ4QQdrRVC/dqt+GEWeOLZY=",
+    "first_name": "mirparvin",
+    "last_name": "miriyev",
+    "username": "miriyev441",
+    "email": "miriyevmirparvin@gmail.com",
+    "phone_number": "+11111111111",
+    "date_joined": "2025-12-18T19:32:31.519Z",
+    "last_login": "2026-01-20T21:12:07.870Z",
+    "is_admin": true,
+    "is_staff": true,
+    "is_active": true,
+    "is_superadmin": true
+  }
+},
+{
+  "model": "accounts.account",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$M1LxvjJB1sOPWV5eUKYdg2$m2PY0+qWCV05CodDZdJj/rLsx4t8uD9ltwdN+J6CYU0=",
+    "first_name": "Mirparvin",
+    "last_name": "Miriyev",
+    "username": "parvinmiriyev",
+    "email": "parvinmiriyev@gmail.com",
+    "phone_number": "+11111111111",
+    "date_joined": "2026-01-20T17:18:50.873Z",
+    "last_login": "2026-01-20T17:19:15.312Z",
+    "is_admin": false,
+    "is_staff": false,
+    "is_active": true,
+    "is_superadmin": false
+  }
+},
+{
+  "model": "accounts.account",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$wfvY50bO9z1IxtlAZdsaYO$K+5dVcQLQenMRuwtVnsZWThZQANzjHdCt/m8oN4qq/g=",
+    "first_name": "Mirparvin",
+    "last_name": "Miriyev",
+    "username": "fsafsafa",
+    "email": "fsafsafa@gmail.com",
+    "phone_number": "112121",
+    "date_joined": "2026-01-20T18:03:49.531Z",
+    "last_login": "2026-01-20T18:03:49.531Z",
+    "is_admin": false,
+    "is_staff": false,
+    "is_active": true,
+    "is_superadmin": false
+  }
+},
+{
+  "model": "accounts.account",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$hJvMiFDTjBliOXYgBEUzzo$/7f5cvd9D5zuVjnCU2EQjEGT+sgUNdv6wdfDsGOZg8Q=",
+    "first_name": "Mirparvin",
+    "last_name": "Miriyev",
+    "username": "admin",
+    "email": "admin@gmail.com",
+    "phone_number": "",
+    "date_joined": "2026-01-20T21:32:50.191Z",
+    "last_login": "2026-01-22T17:30:01.326Z",
+    "is_admin": true,
+    "is_staff": true,
+    "is_active": true,
+    "is_superadmin": true
+  }
+},
+{
+  "model": "accounts.account",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$vuxAczpxZub1f2ETP0Z9N2$rn8gdaODatwd2vMs7qTAS9En7rGKi4v8xkgAO5hPVyw=",
+    "first_name": "Mirparvin",
+    "last_name": "Miriyev",
+    "username": "admin1",
+    "email": "admin1@gmail.com",
+    "phone_number": "",
+    "date_joined": "2026-01-22T17:24:13.289Z",
+    "last_login": "2026-01-22T17:24:49.929Z",
+    "is_admin": true,
+    "is_staff": true,
+    "is_active": true,
+    "is_superadmin": true
+  }
+},
+{
+  "model": "accounts.account",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$4nzhlRB1mWktYS2hvSdcM8$BkIDarrX+rW0+bbj4mLr1k9SPVXTVzMKbkV5KFAiMg0=",
+    "first_name": "Mirparvin",
+    "last_name": "Miriyev",
+    "username": "miri",
+    "email": "miri@gmaill.com",
+    "phone_number": "+123456778",
+    "date_joined": "2026-01-22T17:25:57.665Z",
+    "last_login": "2026-01-22T17:25:57.665Z",
+    "is_admin": false,
+    "is_staff": false,
+    "is_active": true,
+    "is_superadmin": false
+  }
+},
+{
+  "model": "accounts.account",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$NfZ7DeoudqIW449I3mH1cQ$g+bnYUVP37Fps8RbRnlVqt2eL4TquqrmzB8Ii4SOtD4=",
+    "first_name": "Mirparvin",
+    "last_name": "Miriyev",
+    "username": "miriyev",
+    "email": "miriyev@gmail.com",
+    "phone_number": "+123456789",
+    "date_joined": "2026-01-22T17:26:45.113Z",
+    "last_login": "2026-01-22T17:26:57.768Z",
+    "is_admin": false,
+    "is_staff": false,
+    "is_active": true,
+    "is_superadmin": false
+  }
+},
+{
+  "model": "accounts.userprofile",
+  "pk": 1,
+  "fields": {
+    "user": 3,
+    "address_line_1": "",
+    "address_line_2": "",
+    "profile_picture": "",
+    "city": "",
+    "state": "",
+    "country": ""
+  }
+},
+{
+  "model": "accounts.userprofile",
+  "pk": 2,
+  "fields": {
+    "user": 1,
+    "address_line_1": "Krochmalna 3",
+    "address_line_2": "",
+    "profile_picture": "userprofile/cover.jpg",
+    "city": "Warsaw",
+    "state": "",
+    "country": "Poland"
+  }
+},
+{
+  "model": "accounts.userprofile",
+  "pk": 3,
+  "fields": {
+    "user": 4,
+    "address_line_1": "",
+    "address_line_2": "",
+    "profile_picture": "",
+    "city": "",
+    "state": "",
+    "country": ""
+  }
+},
+{
+  "model": "accounts.userprofile",
+  "pk": 4,
+  "fields": {
+    "user": 6,
+    "address_line_1": "",
+    "address_line_2": "",
+    "profile_picture": "",
+    "city": "",
+    "state": "",
+    "country": ""
+  }
+},
+{
+  "model": "accounts.userprofile",
+  "pk": 5,
+  "fields": {
+    "user": 7,
+    "address_line_1": "",
+    "address_line_2": "",
+    "profile_picture": "",
+    "city": "",
+    "state": "",
+    "country": ""
+  }
+},
+{
+  "model": "store.product",
+  "pk": 10,
+  "fields": {
+    "product_name": "Mens Digital Watch Ultra-Thin Simple Watch",
+    "slug": "sport-watch",
+    "description": "This digital watch is thin and stylish style, simple design, soft and elastic strap fits the wrist, suitable for various occasions and clothes. Fashion design suitable for men and women",
+    "price": 159,
+    "images": "photo/products/watch2.jpg",
+    "stock": 25,
+    "is_available": true,
+    "category": 1,
+    "created_date": "2026-01-13T13:29:06.757Z",
+    "modified_date": "2026-01-15T10:37:38.195Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 12,
+  "fields": {
+    "product_name": "Thermalright Peerless Assassin 120 SE",
+    "slug": "thermalright-peerless-assassin-120-se",
+    "description": "Thermalright Peerless Assassin 120 SE CPU Cooler, 6 Heat Pipes AGHP Technology, Dual 120mm PWM Fans, 1550RPM Speed, for AMD:AM4 AM5/Intel LGA 1700/1150/1151/1200/1851,PC Cooler\r\nThermalright is a Taiwan brand with more than 20 years of development. It has a certain popularity in the domestic and foreign markets and has a pivotal influence in the player market. We have been focusing on the research and development of computer accessories.",
+    "price": 229,
+    "images": "photo/products/1.jpg",
+    "stock": 27,
+    "is_available": true,
+    "category": 15,
+    "created_date": "2026-01-15T09:38:45.619Z",
+    "modified_date": "2026-01-15T09:43:50.366Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 13,
+  "fields": {
+    "product_name": "ID-COOLING SE-224-XTS Black CPU Cooler",
+    "slug": "id-cooling-se-224-xts",
+    "description": "ID-COOLING SE-224-XTS Black CPU Cooler 4 Heatpipes CPU Air Cooler 120mm PWM Fan CPU Fan for Intel LGA1700/115X/1200; AMD AM4/AM5. The CPU cooler comes with 4 heat pipes and 120mm PWM fan to make sure excellent heat transfer from CPU",
+    "price": 139,
+    "images": "photo/products/2.jpg",
+    "stock": 36,
+    "is_available": true,
+    "category": 15,
+    "created_date": "2026-01-15T09:45:38.108Z",
+    "modified_date": "2026-01-15T09:46:18.899Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 14,
+  "fields": {
+    "product_name": "be quiet! Pure Rock Pro 3 Black CPU Air Cooler",
+    "slug": "be-quiet-pure-rock-pro-3-black-cpu-air-cooler",
+    "description": "be quiet! Pure Rock Pro 3 Black CPU Air Cooler | 6 High Performance 6mm Heat Pipes with HDT Technology | 120mm Quiet PWM Fan | AMD:AM4 AM5/Intel LGA 1700/1150/1151/1200 | Black | BK042. Pure Rock Pro 3 features 6 black high-performance copper heat pipes with nickel-plated base. As a result, this high-end cooler always keeps your CPU at peak performance, even in overclocked systems and demanding workstations.",
+    "price": 319,
+    "images": "photo/products/3.jpg",
+    "stock": 44,
+    "is_available": true,
+    "category": 15,
+    "created_date": "2026-01-15T09:47:56.721Z",
+    "modified_date": "2026-01-15T09:47:56.721Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 15,
+  "fields": {
+    "product_name": "Cooler Master Hyper 212 Black CPU Cooler",
+    "slug": "cooler-master-hyper-212-black-cpu-cooler",
+    "description": "Cooler Master Hyper 212 Black CPU Cooler, SickleFlow 120 Edge PWM Fan, Aluminum Top Cover, 4 Copper Heat Pipes, 152mm Tall, AMD Ryzen AM5/AM4, Intel LGA 1851/1700/1200 Bracket. Four heat pipes and a copper base ensure optimal cooling performance for AMD R7 and *Intel i7.",
+    "price": 149,
+    "images": "photo/products/4.jpg",
+    "stock": 14,
+    "is_available": true,
+    "category": 15,
+    "created_date": "2026-01-15T09:49:26.816Z",
+    "modified_date": "2026-01-15T09:49:26.816Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 16,
+  "fields": {
+    "product_name": "WD_Black SN7100 2TB NVMe SSD - Gen4 PCIe, M.2 2280",
+    "slug": "wd_black-sn7100-2tb-nvme-ssd-gen4-pcie-m2-2280",
+    "description": "WD_Black SN7100 2TB NVMe SSD - Gen4 PCIe, M.2 2280, Up to 7,250 MB/s Read Speed, Up to 6,900 MB/s Write Speed, Next Gen TLC 3D NAND, for Laptops, Handheld Gaming Devices - WDS200T4X0E",
+    "price": 1899,
+    "images": "photo/products/1_JiBWL2n.jpg",
+    "stock": 6,
+    "is_available": true,
+    "category": 13,
+    "created_date": "2026-01-15T09:52:23.283Z",
+    "modified_date": "2026-01-15T09:53:42.777Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 17,
+  "fields": {
+    "product_name": "SanDisk 2TB Extreme Portable SSD - Up to 1050MB/s",
+    "slug": "sandisk-2tb-extreme-portable-ssd-up-to-1050mbs",
+    "description": "SanDisk 2TB Extreme Portable SSD - Up to 1050MB/s, USB-C, USB 3.2 Gen 2, IP65 Water and Dust Resistance, Updated Firmware - External Solid State Drive - SDSSDE61-2T00-G25",
+    "price": 1199,
+    "images": "photo/products/2_HQiQcE6.jpg",
+    "stock": 4,
+    "is_available": true,
+    "category": 13,
+    "created_date": "2026-01-15T10:25:41.931Z",
+    "modified_date": "2026-01-15T10:25:41.931Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 18,
+  "fields": {
+    "product_name": "ASUS Dual GeForce RTX™ 5060 8GB GDDR7 OC Edition",
+    "slug": "asus-dual-geforce-rtx-5060-8gb-gddr7-oc-edition",
+    "description": "ASUS Dual GeForce RTX™ 5060 8GB GDDR7 OC Edition (PCIe 5.0, 8GB GDDR7, DLSS 4, HDMI 2.1b, DisplayPort 2.1b, 2.5-Slot Design, Axial-tech Fan Design, 0dB Technology, and More)",
+    "price": 1699,
+    "images": "photo/products/1_m3vpUtQ.jpg",
+    "stock": 7,
+    "is_available": true,
+    "category": 6,
+    "created_date": "2026-01-15T10:28:52.790Z",
+    "modified_date": "2026-01-15T10:28:52.790Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 19,
+  "fields": {
+    "product_name": "ASUS TUF Gaming GeForce RTX ™ 5070 12GB",
+    "slug": "asus-tuf-gaming-geforce-rtx-5070-12gb",
+    "description": "ASUS TUF Gaming GeForce RTX ™ 5070 12GB GDDR7 OC Edition Gaming Graphics Card (PCIe® 5.0, HDMI®/DP 2.1, 3.125-slot, Military-Grade Components, Protective PCB Coating, axial-tech Fans)",
+    "price": 3649,
+    "images": "photo/products/2_Jq5JE00.jpg",
+    "stock": 2,
+    "is_available": true,
+    "category": 6,
+    "created_date": "2026-01-15T10:30:21.689Z",
+    "modified_date": "2026-01-15T10:30:21.689Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 20,
+  "fields": {
+    "product_name": "ASUS TUF Gaming GeForce RTX™ 4060 Ti OC Edition Gaming",
+    "slug": "asus-tuf-gaming-geforce-rtx-4060-ti-oc-edition-gaming",
+    "description": "ASUS TUF Gaming GeForce RTX™ 4060 Ti OC Edition Gaming Graphics Card (PCIe 4.0, 8GB GDDR6, DLSS 3, HDMI 2.1a, DisplayPort 1.4a)",
+    "price": 2299,
+    "images": "photo/products/3_XfpPstg.jpg",
+    "stock": 3,
+    "is_available": true,
+    "category": 6,
+    "created_date": "2026-01-15T10:31:36.670Z",
+    "modified_date": "2026-01-15T10:31:36.670Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 21,
+  "fields": {
+    "product_name": "ASUS ROG Astral GeForce RTX™ 5080 OC Edition",
+    "slug": "asus-rog-astral-geforce-rtx-5080-oc-edition",
+    "description": "ASUS ROG Astral GeForce RTX™ 5080 OC Edition Gaming Graphics Card (PCIe® 5.0, 16GB GDDR7, HDMI®/DP 2.1, 3.8-Slot, 4-Fan Design, Axial-tech Fans, Patented Vapor Chamber, Phase-Change GPU Thermal pad)",
+    "price": 9559,
+    "images": "photo/products/4_pC7z4LM.jpg",
+    "stock": 3,
+    "is_available": true,
+    "category": 6,
+    "created_date": "2026-01-15T10:32:20.161Z",
+    "modified_date": "2026-01-15T10:40:37.360Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 22,
+  "fields": {
+    "product_name": "XFX Radeon RX 7900XT Gaming Graphics Card",
+    "slug": "xfx-radeon-rx-7900xt-gaming-graphics-card",
+    "description": "XFX Radeon RX 7900XT Gaming Graphics Card with 20GB GDDR6, AMD RDNA 3 RX-79TMBABF9",
+    "price": 3639,
+    "images": "photo/products/5.jpg",
+    "stock": 8,
+    "is_available": true,
+    "category": 6,
+    "created_date": "2026-01-15T10:33:25.813Z",
+    "modified_date": "2026-01-15T10:33:25.813Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 23,
+  "fields": {
+    "product_name": "Seagate IronWolf 4TB NAS Internal Hard Drive",
+    "slug": "seagate-ironwolf-4tb-nas-internal-hard-drive",
+    "description": "Seagate IronWolf 4TB NAS Internal Hard Drive CMR 3.5 Inch SATA 6Gb/s 5400 RPM 64MB Cache for RAID Network Attached Storage Rescue Services (ST4000VNZ06/006)",
+    "price": 799,
+    "images": "photo/products/1_B07psEx.jpg",
+    "stock": 9,
+    "is_available": true,
+    "category": 12,
+    "created_date": "2026-01-15T10:39:26.167Z",
+    "modified_date": "2026-01-15T10:39:26.167Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 24,
+  "fields": {
+    "product_name": "Seagate BarraCuda 4TB Internal Hard Drive HDD",
+    "slug": "seagate-barracuda-4tb-internal-hard-drive-hdd",
+    "description": "Seagate BarraCuda 4TB Internal Hard Drive HDD – 3.5 Inch Sata 6 Gb/s 5400 RPM 256MB Cache For Computer Desktop PC – Frustration Free Packaging ST4000DMZ04/DM004",
+    "price": 749,
+    "images": "photo/products/2_sQd9TW6.jpg",
+    "stock": 14,
+    "is_available": true,
+    "category": 12,
+    "created_date": "2026-01-15T10:40:19.385Z",
+    "modified_date": "2026-01-15T10:40:19.385Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 25,
+  "fields": {
+    "product_name": "Philips 221V8LB 22 inch Class Thin Full HD (1920 x 1080)",
+    "slug": "philips-221v8lb-22-inch-class-thin-full-hd-1920-x-1080",
+    "description": "Philips 221V8LB 22 inch Class Thin Full HD (1920 x 1080) Monitor, 100Hz Refresh Rate, VESA, HDMI x1, VGA x1, LowBlue Mode, Adaptive Sync, 4 Year Advance Replacement Warranty",
+    "price": 529,
+    "images": "photo/products/1_cLChclr.jpg",
+    "stock": 4,
+    "is_available": true,
+    "category": 11,
+    "created_date": "2026-01-15T10:43:22.421Z",
+    "modified_date": "2026-01-15T10:43:22.421Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 26,
+  "fields": {
+    "product_name": "acer 27 Inch Monitor- KB272-27 Inch FHD IPS (1920 x 1080)",
+    "slug": "acer-27-inch-monitor-kb272-27-inch-fhd-ips-1920-x-1080",
+    "description": "acer 27 Inch Monitor- KB272-27 Inch FHD IPS (1920 x 1080) Display, Up to 120Hz Refresh Rate, 99% sRGB, Tilt, Adaptive-Sync Support (FreeSync Compatible) 1ms (VRB), sRGB 99% Color, HDMI & VGA Ports",
+    "price": 659,
+    "images": "photo/products/2_vRzIZMW.jpg",
+    "stock": 7,
+    "is_available": true,
+    "category": 11,
+    "created_date": "2026-01-15T10:44:22.997Z",
+    "modified_date": "2026-01-15T10:44:22.997Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 27,
+  "fields": {
+    "product_name": "LG 27U631A-B 27-inch QHD (2560 x 1440) IPS",
+    "slug": "lg-27u631a-b-27-inch-qhd-2560-x-1440-ips",
+    "description": "LG 27U631A-B 27-inch QHD (2560 x 1440) IPS Computer Monitor, 100Hz, 5ms, HDR10, Reader Mode, Flicker Safe, HDMI, USB Type-C 15W PD, Black",
+    "price": 999,
+    "images": "photo/products/3_FWvbSPb.jpg",
+    "stock": 6,
+    "is_available": true,
+    "category": 11,
+    "created_date": "2026-01-15T10:45:31.277Z",
+    "modified_date": "2026-01-15T10:45:31.277Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 28,
+  "fields": {
+    "product_name": "ASUS TUF GAMING B850-E WIFI AMD AM5 B850",
+    "slug": "asus-tuf-gaming-b850-e-wifi-amd-am5-b850",
+    "description": "ASUS TUF GAMING B850-E WIFI AMD AM5 B850 ATX motherboard, DDR5, PCIe 5.0 Ready, M.2 slots x3, Wi-Fi 6E, 2.5Gb Ethernet, DisplayPort, HDMI,USB 20Gbps Type-C, USB 10Gbps Type-C, BIOS FlashBack, AuraSync",
+    "price": 1299,
+    "images": "photo/products/1_mifezzD.jpg",
+    "stock": 14,
+    "is_available": true,
+    "category": 9,
+    "created_date": "2026-01-15T10:47:03.328Z",
+    "modified_date": "2026-01-15T10:48:11.929Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 29,
+  "fields": {
+    "product_name": "ASUS ROG Strix B850-A Gaming WiFi AMD AM5 B850",
+    "slug": "asus-rog-strix-b850-a-gaming-wifi-amd-am5-b850",
+    "description": "ASUS ROG Strix B850-A Gaming WiFi AMD AM5 B850 ATX Motherboard 14+2+2 Power Stages, DDR5 AEMP, 2.5G LAN, WiFi 7 with Q-Antenna, 4X M.2, PCIe® 5.0, USB 20Gbps Type-C, AI Networking II, ASUS AI Advisor",
+    "price": 1199,
+    "images": "photo/products/2_3d200lp.jpg",
+    "stock": 0,
+    "is_available": true,
+    "category": 9,
+    "created_date": "2026-01-15T10:48:01.945Z",
+    "modified_date": "2026-01-15T10:48:01.945Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 30,
+  "fields": {
+    "product_name": "MSI MAG A750GL PCIE5, Fully Modular",
+    "slug": "msi-mag-a750gl-pcie5-fully-modular",
+    "description": "MSI MAG A750GL PCIE5, Fully Modular Compact Gaming 750W Power Supply, 80+ Gold, ATX 3.1 & PCIe 5.1 Ready, Native Dual-Color 12V-2x6 Cable, 10 Year Warranty",
+    "price": 649,
+    "images": "photo/products/1_c1if6za.jpg",
+    "stock": 18,
+    "is_available": true,
+    "category": 8,
+    "created_date": "2026-01-15T10:50:18.303Z",
+    "modified_date": "2026-01-15T10:50:18.304Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 31,
+  "fields": {
+    "product_name": "Intel Core i7-14700F Desktop Processor 20 cores",
+    "slug": "intel-core-i7-14700f-desktop-processor-20-cores",
+    "description": "Intel Core i7-14700F Desktop Processor 20 cores (8 P-cores + 12 E-cores) up to 5.4 GHz\r\n20 cores (8 P-cores + 12 E-cores) and 28 threads\r\nPerformance hybrid architecture integrates two core microarchitectures, prioritizing and distributing workloads to optimize performance\r\nUp to 5.4 GHz unlocked. 33MB Cache\r\nCompatible with Intel 600-series (with potential BIOS update) and 700-series chipset-based motherboards\r\nPCIe 5.0 & 4.0 support. DDR4 and DDR5 Memory support. RM1 thermal solution included. Discrete graphics required.",
+    "price": 1939,
+    "images": "photo/products/1_AnzxHsG.jpg",
+    "stock": 24,
+    "is_available": true,
+    "category": 10,
+    "created_date": "2026-01-15T10:52:23.906Z",
+    "modified_date": "2026-01-15T10:52:40.529Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 32,
+  "fields": {
+    "product_name": "AMD Ryzen 7 7700X 8-Core, 16-Thread Unlocked",
+    "slug": "amd-ryzen-7-7700x-8-core-16-thread-unlocked",
+    "description": "AMD Ryzen 7 7700X 8-Core, 16-Thread Unlocked Desktop Processor. This dominant gaming processor can deliver fast 100+ FPS performance in the world's most popular games.\r\n8 Cores and 16 processing threads, based on AMD \"Zen 4\" architecture.\r\n5.4 GHz Max Boost, unlocked for overclocking, 80 MB cache, DDR5-5200 support.\r\nFor the state-of-the-art Socket AM5 platform, can support PCIe 5.0 on select 600 Series motherboards.",
+    "price": 1279,
+    "images": "photo/products/2_DoJlXhq.jpg",
+    "stock": 11,
+    "is_available": true,
+    "category": 10,
+    "created_date": "2026-01-15T10:55:02.923Z",
+    "modified_date": "2026-01-15T10:55:02.923Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 33,
+  "fields": {
+    "product_name": "AMD Ryzen 7 7800X3D 8-Core, 16-Thread",
+    "slug": "amd-ryzen-7-7800x3d-8-core-16-thread",
+    "description": "Processor provides dependable and fast execution of tasks with maximum efficiency.Graphics Frequency : 2200 MHZ.Number of CPU Cores : 8. Maximum Operating Temperature (Tjmax) : 89°C.\r\nRyzen 7 product line processor for better usability and increased efficiency.\r\n5 nm process technology for reliable performance with maximum productivity.\r\nOcta-core (8 Core) processor core allows multitasking with great reliability and fast processing speed.\r\n8 MB L2 plus 96 MB L3 cache memory provides excellent hit rate in short access time enabling improved system performance.",
+    "price": 1779,
+    "images": "photo/products/3_GAjWyc2.jpg",
+    "stock": 3,
+    "is_available": true,
+    "category": 10,
+    "created_date": "2026-01-15T10:55:57.817Z",
+    "modified_date": "2026-01-15T10:55:57.817Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 34,
+  "fields": {
+    "product_name": "AMD Ryzen 5 5500 6-Core, 12-Thread Unlocked",
+    "slug": "amd-ryzen-5-5500-6-core-12-thread-unlocked",
+    "description": "AMD Ryzen 5 5500 6-Core, 12-Thread Unlocked Desktop Processor with Wraith Stealth Cooler. Can deliver fast 100 plus FPS performance in the world's most popular games, discrete graphics card required.\r\n6 Cores and 12 processing threads, bundled with the AMD Wraith Stealth cooler.\r\n4.2 GHz Max Boost, unlocked for overclocking, 19 MB cache, DDR4-3200 support.",
+    "price": 649,
+    "images": "photo/products/4_kXfBdva.jpg",
+    "stock": 2,
+    "is_available": true,
+    "category": 10,
+    "created_date": "2026-01-15T10:56:54.028Z",
+    "modified_date": "2026-01-15T10:56:54.028Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 35,
+  "fields": {
+    "product_name": "G.SKILL Trident Z5 RGB Series DDR5 RAM",
+    "slug": "gskill-trident-z5-rgb-series-ddr5-ram",
+    "description": "G.SKILL Trident Z5 RGB Series DDR5 RAM (Intel XMP 3.0 & AMD Expo) 32GB (2x16GB) 6000MT/s CL36-36-36-96 1.35V Desktop Computer Memory U-DIMM - Matte Black (F5-6000J3636F16GA2-TZ5RK)",
+    "price": 3199,
+    "images": "photo/products/1_ys5FVVg.jpg",
+    "stock": 2,
+    "is_available": true,
+    "category": 7,
+    "created_date": "2026-01-15T10:58:16.722Z",
+    "modified_date": "2026-01-15T10:58:16.722Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 36,
+  "fields": {
+    "product_name": "GIGASTONE Game PRO 64GB Kit (4x16GB) DDR4 3200MHz",
+    "slug": "gigastone-game-pro-64gb-kit-4x16gb-ddr4-3200mhz",
+    "description": "【DDR4 RAM】GIGASTONE Game PRO 64GB Kit (4x16GB) DDR4 3200MHz PC4-25600 CL16-18-18-40 Gaming Desktop Memory – XMP 2.0 / AMD Support, 1.35V UDIMM 288-Pin, Unbuffered Non-ECC, High-Performance RAM (Black)",
+    "price": 2889,
+    "images": "photo/products/2_WnIBgmh.jpg",
+    "stock": 4,
+    "is_available": true,
+    "category": 7,
+    "created_date": "2026-01-15T10:59:09.550Z",
+    "modified_date": "2026-01-15T10:59:09.550Z"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 37,
+  "fields": {
+    "product_name": "Thermalright TL-C12C-S X3 CPU Fan 120mm ARGB",
+    "slug": "thermalright-tl-c12c-s-x3-cpu-fan-120mm-argb",
+    "description": "Thermalright TL-C12C-S X3 CPU Fan 120mm ARGB Case Cooler Fan, 4pin PWM Silent Computer with S-FDB Bearing Included, up to 1550RPM Cooling Fan（3 Quantities）",
+    "price": 79,
+    "images": "photo/products/5_wtTGEJV.jpg",
+    "stock": 14,
+    "is_available": true,
+    "category": 14,
+    "created_date": "2026-01-15T12:07:01.747Z",
+    "modified_date": "2026-01-15T12:07:01.747Z"
+  }
+},
+{
+  "model": "carts.cart",
+  "pk": 1,
+  "fields": {
+    "cart_id": "3o4yx0lrj0nqm0xftyzl8qp07lcys7w8",
+    "date_added": "2026-01-14"
+  }
+},
+{
+  "model": "carts.cart",
+  "pk": 2,
+  "fields": {
+    "cart_id": "yp7dfzarobqy4t6ibf7689ehu8vnfg89",
+    "date_added": "2026-01-18"
+  }
+},
+{
+  "model": "carts.cart",
+  "pk": 3,
+  "fields": {
+    "cart_id": "grevk1muw6dtsvvdcjefmr0skphnl4j9",
+    "date_added": "2026-01-20"
+  }
+},
+{
+  "model": "carts.cart",
+  "pk": 4,
+  "fields": {
+    "cart_id": "c8yu0iwr21lii9y3ir5t0q2a3c4mh07h",
+    "date_added": "2026-01-20"
+  }
+},
+{
+  "model": "carts.cart",
+  "pk": 5,
+  "fields": {
+    "cart_id": "vbqhfa2yc43xin0k43vbm7rst02k4w2k",
+    "date_added": "2026-01-20"
+  }
+},
+{
+  "model": "carts.cartitem",
+  "pk": 27,
+  "fields": {
+    "user": null,
+    "product": 10,
+    "cart": 3,
+    "quantity": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "carts.cartitem",
+  "pk": 28,
+  "fields": {
+    "user": null,
+    "product": 14,
+    "cart": 3,
+    "quantity": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "carts.cartitem",
+  "pk": 29,
+  "fields": {
+    "user": null,
+    "product": 13,
+    "cart": 4,
+    "quantity": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "carts.cartitem",
+  "pk": 30,
+  "fields": {
+    "user": null,
+    "product": 14,
+    "cart": 5,
+    "quantity": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "carts.cartitem",
+  "pk": 31,
+  "fields": {
+    "user": null,
+    "product": 21,
+    "cart": 5,
+    "quantity": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "carts.cartitem",
+  "pk": 40,
+  "fields": {
+    "user": 7,
+    "product": 13,
+    "cart": null,
+    "quantity": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "carts.cartitem",
+  "pk": 41,
+  "fields": {
+    "user": 7,
+    "product": 21,
+    "cart": null,
+    "quantity": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "carts.cartitem",
+  "pk": 42,
+  "fields": {
+    "user": 4,
+    "product": 12,
+    "cart": null,
+    "quantity": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 18,
+  "fields": {
+    "user": 1,
+    "payment": null,
+    "order_number": "2026012018",
+    "first_name": "mirparvin",
+    "last_name": "miriyev",
+    "phone": "+48796343241",
+    "email": "miriyevmirparvin@gmail.com",
+    "address_line_1": "Krochmalna 3",
+    "city": "Warsaw",
+    "country": "Poland",
+    "order_total": 10838.0,
+    "tax": 0.0,
+    "status": "New",
+    "is_ordered": false,
+    "created_at": "2026-01-20T20:52:55.443Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 19,
+  "fields": {
+    "user": 1,
+    "payment": null,
+    "order_number": "2026012019",
+    "first_name": "mirparvin",
+    "last_name": "miriyev",
+    "phone": "+48796343241",
+    "email": "miriyevmirparvin@gmail.com",
+    "address_line_1": "Krochmalna 3",
+    "city": "Warsaw",
+    "country": "Poland",
+    "order_total": 10838.0,
+    "tax": 0.0,
+    "status": "New",
+    "is_ordered": false,
+    "created_at": "2026-01-20T20:57:00.990Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 20,
+  "fields": {
+    "user": 1,
+    "payment": null,
+    "order_number": "2026012020",
+    "first_name": "mirparvin",
+    "last_name": "miriyev",
+    "phone": "+48796343241",
+    "email": "miriyevmirparvin@gmail.com",
+    "address_line_1": "Krochmalna 3",
+    "city": "Warsaw",
+    "country": "Poland",
+    "order_total": 10838.0,
+    "tax": 0.0,
+    "status": "New",
+    "is_ordered": false,
+    "created_at": "2026-01-20T20:57:24.406Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 21,
+  "fields": {
+    "user": 1,
+    "payment": null,
+    "order_number": "2026012021",
+    "first_name": "mirparvin",
+    "last_name": "miriyev",
+    "phone": "+48796343241",
+    "email": "miriyevmirparvin@gmail.com",
+    "address_line_1": "Krochmalna 3",
+    "city": "Warsaw",
+    "country": "Poland",
+    "order_total": 10838.0,
+    "tax": 0.0,
+    "status": "New",
+    "is_ordered": false,
+    "created_at": "2026-01-20T20:57:42.325Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 22,
+  "fields": {
+    "user": 4,
+    "payment": null,
+    "order_number": "2026012022",
+    "first_name": "Mirparvin",
+    "last_name": "Miriyev",
+    "phone": "+48796343241",
+    "email": "admin@gmail.com",
+    "address_line_1": "Krochmalna 3",
+    "city": "Warsaw",
+    "country": "Poland",
+    "order_total": 139.0,
+    "tax": 0.0,
+    "status": "New",
+    "is_ordered": false,
+    "created_at": "2026-01-20T22:09:24.925Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 23,
+  "fields": {
+    "user": 4,
+    "payment": null,
+    "order_number": "2026012123",
+    "first_name": "Mirparvin",
+    "last_name": "Miriyev",
+    "phone": "+48796343241",
+    "email": "admin@gmail.com",
+    "address_line_1": "Krochmalna 3",
+    "city": "Warsaw",
+    "country": "Poland",
+    "order_total": 916.0,
+    "tax": 0.0,
+    "status": "New",
+    "is_ordered": false,
+    "created_at": "2026-01-21T21:12:20.341Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 24,
+  "fields": {
+    "user": 7,
+    "payment": null,
+    "order_number": "2026012224",
+    "first_name": "Mirparvin",
+    "last_name": "Miriyev",
+    "phone": "7631844",
+    "email": "miriyev@gmail.com",
+    "address_line_1": "Krochmalna 3",
+    "city": "Warsaw",
+    "country": "Poland",
+    "order_total": 9698.0,
+    "tax": 0.0,
+    "status": "New",
+    "is_ordered": false,
+    "created_at": "2026-01-22T17:28:36.620Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 25,
+  "fields": {
+    "user": 7,
+    "payment": null,
+    "order_number": "2026012225",
+    "first_name": "Mirparvin",
+    "last_name": "Miriyev",
+    "phone": "7631844",
+    "email": "miriyev@gmail.com",
+    "address_line_1": "Krochmalna 3",
+    "city": "Warsaw",
+    "country": "Poland",
+    "order_total": 9698.0,
+    "tax": 0.0,
+    "status": "New",
+    "is_ordered": false,
+    "created_at": "2026-01-22T17:28:51.534Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 26,
+  "fields": {
+    "user": 4,
+    "payment": null,
+    "order_number": "2026012226",
+    "first_name": "Mirparvin",
+    "last_name": "Miriyev",
+    "phone": "+48796343241",
+    "email": "admin@gmail.com",
+    "address_line_1": "Krochmalna 3",
+    "city": "Warsaw",
+    "country": "Poland",
+    "order_total": 687.0,
+    "tax": 0.0,
+    "status": "New",
+    "is_ordered": false,
+    "created_at": "2026-01-22T17:38:48.041Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 27,
+  "fields": {
+    "user": 4,
+    "payment": null,
+    "order_number": "2026012227",
+    "first_name": "Mirparvin",
+    "last_name": "Miriyev",
+    "phone": "+48796343241",
+    "email": "admin@gmail.com",
+    "address_line_1": "Krochmalna 3",
+    "city": "Warsaw",
+    "country": "Poland",
+    "order_total": 687.0,
+    "tax": 0.0,
+    "status": "New",
+    "is_ordered": false,
+    "created_at": "2026-01-22T17:39:10.681Z"
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 1,
+  "fields": {
+    "order": 18,
+    "payment": null,
+    "user": 1,
+    "product": 21,
+    "quantity": 1,
+    "product_price": 9559.0,
+    "ordered": false,
+    "created_at": "2026-01-20T20:52:55.459Z"
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 2,
+  "fields": {
+    "order": 18,
+    "payment": null,
+    "user": 1,
+    "product": 32,
+    "quantity": 1,
+    "product_price": 1279.0,
+    "ordered": false,
+    "created_at": "2026-01-20T20:52:55.462Z"
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 3,
+  "fields": {
+    "order": 19,
+    "payment": null,
+    "user": 1,
+    "product": 21,
+    "quantity": 1,
+    "product_price": 9559.0,
+    "ordered": false,
+    "created_at": "2026-01-20T20:57:01.005Z"
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 4,
+  "fields": {
+    "order": 19,
+    "payment": null,
+    "user": 1,
+    "product": 32,
+    "quantity": 1,
+    "product_price": 1279.0,
+    "ordered": false,
+    "created_at": "2026-01-20T20:57:01.009Z"
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 5,
+  "fields": {
+    "order": 20,
+    "payment": null,
+    "user": 1,
+    "product": 21,
+    "quantity": 1,
+    "product_price": 9559.0,
+    "ordered": false,
+    "created_at": "2026-01-20T20:57:24.414Z"
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 6,
+  "fields": {
+    "order": 20,
+    "payment": null,
+    "user": 1,
+    "product": 32,
+    "quantity": 1,
+    "product_price": 1279.0,
+    "ordered": false,
+    "created_at": "2026-01-20T20:57:24.417Z"
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 7,
+  "fields": {
+    "order": 21,
+    "payment": null,
+    "user": 1,
+    "product": 21,
+    "quantity": 1,
+    "product_price": 9559.0,
+    "ordered": false,
+    "created_at": "2026-01-20T20:57:42.341Z"
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 8,
+  "fields": {
+    "order": 21,
+    "payment": null,
+    "user": 1,
+    "product": 32,
+    "quantity": 1,
+    "product_price": 1279.0,
+    "ordered": false,
+    "created_at": "2026-01-20T20:57:42.343Z"
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 9,
+  "fields": {
+    "order": 22,
+    "payment": null,
+    "user": 4,
+    "product": 13,
+    "quantity": 1,
+    "product_price": 139.0,
+    "ordered": false,
+    "created_at": "2026-01-20T22:09:24.932Z"
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 10,
+  "fields": {
+    "order": 23,
+    "payment": null,
+    "user": 4,
+    "product": 12,
+    "quantity": 4,
+    "product_price": 229.0,
+    "ordered": false,
+    "created_at": "2026-01-21T21:12:20.349Z"
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 11,
+  "fields": {
+    "order": 24,
+    "payment": null,
+    "user": 7,
+    "product": 13,
+    "quantity": 1,
+    "product_price": 139.0,
+    "ordered": false,
+    "created_at": "2026-01-22T17:28:36.627Z"
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 12,
+  "fields": {
+    "order": 24,
+    "payment": null,
+    "user": 7,
+    "product": 21,
+    "quantity": 1,
+    "product_price": 9559.0,
+    "ordered": false,
+    "created_at": "2026-01-22T17:28:36.629Z"
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 13,
+  "fields": {
+    "order": 25,
+    "payment": null,
+    "user": 7,
+    "product": 13,
+    "quantity": 1,
+    "product_price": 139.0,
+    "ordered": false,
+    "created_at": "2026-01-22T17:28:51.550Z"
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 14,
+  "fields": {
+    "order": 25,
+    "payment": null,
+    "user": 7,
+    "product": 21,
+    "quantity": 1,
+    "product_price": 9559.0,
+    "ordered": false,
+    "created_at": "2026-01-22T17:28:51.553Z"
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 15,
+  "fields": {
+    "order": 26,
+    "payment": null,
+    "user": 4,
+    "product": 12,
+    "quantity": 3,
+    "product_price": 229.0,
+    "ordered": false,
+    "created_at": "2026-01-22T17:38:48.048Z"
+  }
+},
+{
+  "model": "orders.orderproduct",
+  "pk": 16,
+  "fields": {
+    "order": 27,
+    "payment": null,
+    "user": 4,
+    "product": 12,
+    "quantity": 3,
+    "product_price": 229.0,
+    "ordered": false,
+    "created_at": "2026-01-22T17:39:10.697Z"
+  }
+}
+]
