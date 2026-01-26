@@ -1,94 +1,58 @@
-VIZJA-TECH E-commerce Store
-A professional Django-based e-commerce platform featuring product management, a shopping cart system, and order processing.
+# VIZJA-TECH E-commerce Store (AI-Powered)
 
-🚀 Features
-• User Interface: Custom user model (`Account`) with email-based login.
+A professional, high-performance Django e-commerce platform designed for computer hardware. This project distinguishes itself by using **AI-driven Semantic Search** and **Vector Database** technology to provide a modern shopping experience.
 
-• Store: Category and Product management with stock tracking.
-
-• Cart: Add/remove items and quantity management.
-
-• Checkout: Order placement with detailed billing information.
-
-• Admin Dashboard: Seller interface to manage products and orders.
+## 🚀 Advanced Features
+* **AI Semantic Search:** Implements the `all-MiniLM-L6-v2` Transformer model to understand the *intent* behind user queries (e.g., searching "gaming visuals" finds Graphics Cards).
+* **Vector Database:** Powered by **PostgreSQL** and the `pgvector` extension to store and query 384-dimensional embeddings.
+* **Hybrid Search Logic:** Combines Natural Language Processing (NLP) with traditional keyword matching and price filtering.
+* **Domain-Specific Spellcheck:** Custom "Did you mean?" logic that prioritizes hardware terminology (e.g., correcting "maniter" to "monitor" instead of "matter").
+* **Professional Storefront:** Category management, product tracking, shopping cart, and secure checkout processing.
 
 ---
 
-💻 Developer Cheat Sheet (New Owner Setup)
-1. Environment Management
+## 💻 Developer Cheat Sheet (Installation & Setup)
 
-To activate your virtual environment (Run this first):
-
+### 1. Environment Management
+To activate your virtual environment:
 source env/Scripts/activate
 
-```
-
-2. Install Dependencies
-
-To install Django and all necessary libraries on a new computer:
-
+### 2. Install Dependencies
 pip install -r requirements.txt
 
-```
-
-3. Database Migrations
-
-To create the database tables and structure for the first time:
-
+### 3. Database Initialization
+Ensure PostgreSQL is running with the pgvector extension enabled, then run:
 python manage.py migrate
 
-```
+### 4. AI Model Initialization
+To generate the AI embeddings for the product catalog, you must trigger the save method in the Django shell:
+python manage.py shell
+# Inside the shell, run:
+from store.models import Product
+for p in Product.objects.all():
+    p.save()
+exit()
 
-4. Create Superuser
-
-To create your Admin/Seller account to access the dashboard:
-
-python manage.py createsuperuser
-
-```
-
-5. Run Server
-
-To start the local development server:
-
+### 5. Run Server
 python manage.py runserver
 
-```
 
-6. Django Shell
+📁 Technical Project Structure
+store/: The core "Smart" module.
 
-To enter the backend console for manual data management:
+models.py: Defines the VectorField for 384-D embeddings.
 
-python manage.py shell
+views.py: Contains the Hybrid Retrieval logic and Cosine Distance calculations.
 
-```
+accounts/: Custom user model (Account) with email-based authentication.
 
+carts/ & orders/: Logic for session-based shopping and order fulfillment.
 
-📁 Project Structure
-📂 Accounts
+category/: Organizational structure for the hardware catalog.
 
-`accounts/`: Custom user models, registration logic, and login authentication.
+🎓 Academic Implementation Details
+Model: Sentence-Transformers (BERT architecture).
 
-📂 Carts
+Similarity Metric: Cosine Distance via pgvector.
 
-`carts/`: Shopping cart logic, including adding items and session management.
-
-📂 Category
-
-`category/`: Database models for grouping products into searchable categories.
-
-📂 Store
-
-`store/`: The main catalog, product detail pages, and search functionality.
-
-📂 Orders
-
-`orders/`: Checkout processing, payment records, and order fulfillment.
-
-📂 Media
-
-`media/`: Folder containing all uploaded product images and assets.
-
-📂 Templates
-
-`templates/`: Global HTML files, including the base layout, navbar, and footer.
+Backend: Django 6.0 + PostgreSQL.

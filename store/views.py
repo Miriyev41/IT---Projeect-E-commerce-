@@ -84,20 +84,14 @@ def search(request):
             if w in hardware_words:
                 corrected_words.append(w)
             else:
-                # 2. Look for the closest match in OUR hardware words first
-                # This bypasses the common English dictionary for typos like "maniter"
                 hardware_suggestion = spell.candidates(w)
-                
-                # Check if any of the AI candidates are in our hardware list
                 best_match = None
                 if hardware_suggestion:
                     for candidate in hardware_suggestion:
                         if candidate in hardware_words:
                             best_match = candidate
                             break
-                
-                # If we found a hardware match (like monitor), use it! 
-                # Otherwise, fall back to the general dictionary (like matter)
+
                 if best_match:
                     corrected_words.append(best_match)
                 else:
@@ -109,7 +103,6 @@ def search(request):
         if suggestion_word.lower() != keyword.lower():
             suggestion = suggestion_word
 
-        # --- AI SEMANTIC SEARCH ---
         query_vector = ai_model.encode(keyword)
         
         products = Product.objects.annotate(
@@ -121,7 +114,6 @@ def search(request):
             is_available=True
         )
 
-        # (Sorting and Pagination code remains the same as your previous version)
         if sort_by == 'price_low':
             products = products.order_by('price')
         elif sort_by == 'price_high':
@@ -135,7 +127,6 @@ def search(request):
         else:
             products = products.order_by('distance') 
 
-    # Final Price filters and Pagination
     min_price = request.GET.get('min_price')
     max_price = request.GET.get('max_price')
     if min_price: products = products.filter(price__gte=min_price)
