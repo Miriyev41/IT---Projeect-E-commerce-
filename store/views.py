@@ -108,7 +108,7 @@ def search(request):
         products = Product.objects.annotate(
             distance=CosineDistance('embedding', query_vector)
         ).filter(
-            Q(distance__lt=0.68) | 
+            Q(distance__lt=0.70) | 
             Q(product_name__icontains=keyword) | 
             Q(description__icontains=keyword),
             is_available=True
